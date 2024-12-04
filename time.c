@@ -26,7 +26,7 @@ int main()
 	struct tm* current_time;
 	
 	while(1){
-		system("cls"); //system("cls") if windows
+		system("clear"); //system("cls"); if windows
 		s = time(NULL);
 		current_time = localtime(&s);
 
