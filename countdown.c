@@ -8,7 +8,7 @@ int main(){
   hour, minute, second = 0;
 
   while(1){
-    system("clear");
+    system("clear"); // use system("cls"); for windows
     printf("%02d : %02d : %02d", hour, minute, second);
 
     fflush(stdout);
